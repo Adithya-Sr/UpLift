@@ -1,0 +1,11 @@
+.footer {
+  border-top: 1px solid #ff8787;
+  display: flex;
+  gap: 10rem;
+  height: 5rem;
+}
+.foot-link {
+  color: #ffc9c9;
+  font-size: 1rem;
+  font-weight: 600;
+}

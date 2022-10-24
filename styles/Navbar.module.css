@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  border-bottom: 1px solid #ff8787;
+}
+.brand {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ff8787;
+}
