@@ -4,8 +4,19 @@
   gap: 10rem;
   height: 5rem;
 }
+.foot-links {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  flex-direction: column;
+  margin: 2rem 0 3rem 5rem;
+}
 .foot-link {
   color: #ffc9c9;
   font-size: 1rem;
   font-weight: 600;
+}
+.foot-title {
+  color: #ff8787;
+  margin-bottom: 1rem;
 }

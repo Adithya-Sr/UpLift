@@ -4,8 +4,13 @@ import styles from "../styles/Footer.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <a className={styles["foot-link"]}>Contact Us</a>
-      <a className={styles["foot-link"]}>About</a>
+      <div className={styles["foot-links"]}>
+        <h2 className={styles["foot-title"]}>Get To Know Us</h2>
+        <a className={styles["foot-link"]}>About Us</a>
+        <a className={styles["foot-link"]}>Careers</a>
+        <a className={styles["foot-link"]}>Press Releases</a>
+      </div>
+      <div className={styles.logos}> </div>
     </footer>
   );
 };
